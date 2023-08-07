@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tweet test</title>
+    <style>
+        .block {
+            font-family: Arial, Courier, monospace;
+            width: 400px;
+            border: .5px solid rgba(87, 86, 86, 0.2);
+            border-radius: 4px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+            padding: 5px;
+            margin-bottom: 20px;
+        }
+
+        .profil{
+            width: 60px;
+            height: 60px;
+            border-radius: 100px;
+            object-fit: cover;
+            object-position: right;
+            vertical-align: middle;
+        }
+        span {
+            vertical-align: middle;
+            color: rgb(105, 101, 101);
+        }
+
+        .tweet-button {
+            background-color: rgb(76, 152, 250);
+            color: #fff;
+            padding: 8px 15px;
+            border: none;
+            border-radius: 20px;
+            font-weight: bold;
+            vertical-align: middle;
+            margin-left: 100px;
+        }
+
+        .inline_block {
+            width: 300px;
+            display: inline-block;
+            border: 1px solid rgba(0, 0, 0, .2);
+            border-radius: 2px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+        }
+
+        .square-profil {
+            width: 300px;
+            height: 300px;
+            object-fit: cover;
+            object-position: left;
+        }
+
+        p, .add-button {
+            margin-left: 5px;
+            margin-bottom: 0;
+        }
+
+        
+
+        .friends {
+            color: rgb(80, 79, 79);
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+
+        .add-button {
+            background-color: rgb(6, 95, 212);
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            padding: 10px 20px 10px 20px;
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="block">
+        <img class="profil" src="https://supersimple.dev/public/img/exercises/youtube/thumbnails/thumbnail-1.webp" alt="">
+        <span>What's happening?</span>
+        <button class="tweet-button">Tweet</button>
+    </div>
+
+    <div class="inline_block">
+        <img class="square-profil" src="https://supersimple.dev/public/img/exercises/youtube/thumbnails/thumbnail-1.webp" alt="">
+        <p class="name"><strong>Oliver</strong></p>
+        <p class="friends">2 mutual friends</p>
+        <button class="add-button">Add Friends</button>
+    </div>
+</body>
+</html>

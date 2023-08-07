@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Nested Layout</title>
+    <style>
+        .block {
+            width: 500px;
+            margin-bottom: 20px;
+        }
+
+        .profile {
+            vertical-align: top;
+            display: inline-block;
+        }
+
+        .profil-picture {
+            width: 50px;
+            border-radius: 40px;
+            margin: 5px;
+            vertical-align: top;
+        }
+
+        .about {
+            display: inline-block;
+            vertical-align: middle;
+            width: 100px;
+        }
+
+        .follow-button {
+            display: inline-block;
+            margin-left: 100px;
+        }
+
+        p {
+            font-family: Arial;
+            font-size: 14px;
+            margin-top: 0;
+            margin-bottom: 4px;
+        }
+
+        .top {
+            margin-top: 4px;
+        }
+
+        .sub {
+            color: rgba(110, 110, 110)
+        }
+
+        .button-follow {
+            background-color: rgba(24, 119, 242, .7) ;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            font-size: 16px;
+            /* background-color: rgb(24, 119, 242);
+            color: white;
+            border: none;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 20px;
+            padding-right: 20px;
+            border-radius: 4px;
+            font-size: 16px;
+            margin-left: 20px; */
+        }
+    </style>
+</head>
+<body>
+    <div class="block">
+        <img class="profil-picture" src="https://supersimple.dev/public/img/exercises/youtube/channel-profile-pics/channel-2.jpeg" alt="profile_picture">
+        <div class="about">
+            <p class="top"><strong>oliver</strong></p>
+            <p class="sub">the cat</p>
+            <p class="sub">Popular</p>
+        </div>
+        <div class="follow-button">
+            <button class="button-follow">Follow</button>
+        </div>
+    </div>
+
+    <div class="block">
+        <img class="profil-picture" src="https://supersimple.dev/public/img/exercises/youtube/channel-profile-pics/channel-2.jpeg" alt="profile_picture">
+        <div class="about">
+            <p class="top"><strong>mimi</strong></p>
+            <p class="sub">Sleepy cat</p>
+            <p class="sub">Popular</p>
+        </div>
+        <div class="follow-button">
+            <button class="button-follow">Follow</button>
+        </div>
+    </div>
+
+    <div class="block">
+        <img class="profil-picture" src="https://supersimple.dev/public/img/exercises/youtube/channel-profile-pics/channel-2.jpeg" alt="profile_picture">
+        <div class="about">
+            <p class="top"><strong>Rex</strong></p>
+            <p class="sub">Happy Bulldog</p>
+            <p class="sub">Popular</p>
+        </div>
+        <div class="follow-button">
+            <button class="button-follow">Follow</button>
+        </div>
+    </div>
+</body>
+</html>

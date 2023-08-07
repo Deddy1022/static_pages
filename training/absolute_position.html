@@ -1,0 +1,94 @@
+<html lang="en">
+<head>
+    <style>
+        body {
+            height: 3000px;
+        }
+
+        .absolute {
+            font-family: Arial;
+            font-size: 12px;
+            position: absolute;
+            top: -12px;
+            left: -12px;
+            background: #000;
+            color: #fff;
+            padding: 8px 11px;
+            border-radius: 25px;
+        }
+
+        .fixed {
+            width: 320px;
+            height: 180px;
+            background-color: rgb(128, 128, 128);
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+        }
+
+        .timer {
+            background-color: #000;
+            font-size: 12px;
+            color: #fff;
+            position: absolute;
+            right: 5px;
+            bottom: 5px;
+            padding: 3px 5px;
+        }
+
+        .bannier-image {
+            position: relative;
+            display: inline-block;
+            background-color: rgb(178, 178, 178);
+        }
+
+        .image {
+            width: 300px;
+            height: 300px;
+            object-fit: cover;
+        }
+
+        .remise {
+            background-color: #000;
+            color: #fff;
+            position: absolute;
+            padding: 7px 10px;
+            font-family: Arial;
+            top: 10px;
+            right: 0;
+        }
+
+        .bottom {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 80px;
+            background-color: rgba(255, 255, 255, 0.8);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        button {
+            padding: 5px 10px;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div class="bannier-image">
+        <img class="image" src="../icons/t-shirt.webp" alt="">
+        <div class="remise">20% OFF</div>
+        <div class="bottom">
+            <button>
+                Add to Cart
+            </button>
+        </div>
+    </div>
+    <div class="fixed">
+        <div class="absolute">X</div>
+        <div class="timer">0:29</div>
+    </div>
+</body>
+</html>

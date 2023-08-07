@@ -1,0 +1,39 @@
+<style>
+    .stretch {
+        background-color: rgb(2, 112, 2);
+        color: #fff;
+        font-weight: bold;
+        font-size: 7px;
+        border: none;
+        border-radius: .5px;
+        transition: padding .5s;
+        cursor: pointer;
+        vertical-align: top;
+    }
+
+    .stretch:hover {
+        padding: 7px 15px;
+    }
+
+    .shadow {
+        background-color: rgb(2, 112, 2);
+        color: #fff;
+        font-weight: bold;
+        font-size: 7px;
+        border: none;
+        border-radius: .5px;
+        box-shadow: 1px 1px 0 rgba(0, 0, 0, .2);
+        vertical-align: top;
+        cursor: pointer;
+    }
+
+    .shadow:active {
+        box-shadow: none;
+        top: 1px;
+        left: 1px;
+        position: relative;
+    }
+</style>
+
+<button class="stretch">Stretch</button>
+<button class="shadow">Shadow</button>

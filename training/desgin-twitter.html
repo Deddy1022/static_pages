@@ -1,0 +1,71 @@
+<html lang="en">
+<head>
+    <style>
+        body {
+            font-family: Roboto, Arial;
+            font-size: 13px;
+        }
+
+        .flexbox-parent {
+            display: flex;
+            width: 350px;
+        }
+
+        img {
+            width: 50px;
+            margin-right: 10px;
+            height: 50px;
+            border-radius: 30px;
+        }
+
+        .name {
+            font-weight: bold;
+        }
+
+        .attribut {
+            color: rgb(128, 128, 128);
+            font-weight: lighter;
+        }
+
+        p {
+            margin-top: 0;
+            margin-bottom: 5px;
+        }
+
+        .flexbox-child {
+            display: flex;
+            border: 1px solid rgb(220, 220, 220);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .grey-bg {
+            background-color: rgb(220, 220, 220);
+            flex: 150px;
+            /* border-radius: 9px 0 0 9px; */
+        }
+
+        .youtube {
+            margin: 10px 10px;
+        }
+
+    </style>
+    <title>Design from twitter</title>
+</head>
+<body>
+    <div class="flexbox-parent">
+        <img src="../icons/channel-1.jpeg" alt="">
+        <div class="paragraph">
+            <p class="name">supersimple.dev <span class="attribut">@SuperSimpleDev</span></p>
+            <p>What is backend web development? A complete overview. New video is up!</p>
+            <div class="flexbox-child">
+                <div class="grey-bg"></div>
+                <div class="youtube">
+                    <p>youtube.com</p>
+                    <p>Backend web development - a complete overview (2021)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
